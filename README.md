@@ -26,3 +26,9 @@ Halaman terbuka dengan data contoh dari `Rak_JDC.xlsx` (sheet Rak Existing).
 ## Catatan data
 
 Tabel PP di sheet cocok dengan hitungan sel untuk Row A dan B. Pada Row C ada selisih 28-50 PP per rak; cek di tab Rekap PP.
+
+## Client
+
+Nama client (Monde, Toshiba, Daelim, dan seterusnya) dibaca dari kotak teks berwarna di atas layout Excel. Tiap posisi rak diberi client berdasarkan kotak yang menutupinya. Pilih **Warna: Client** untuk mewarnai rak per client, lalu klik nama client untuk menyorotnya. Tab Rekap PP menampilkan PP existing per client.
+
+Batas client mengikuti posisi kotak teks di Excel, jadi sel di tepi kotak bisa bergeser satu kolom. Racking baru (abu-abu) belum punya client.

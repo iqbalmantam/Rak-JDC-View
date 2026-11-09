@@ -7,6 +7,7 @@ Peta kapasitas rak gudang JDC dalam **tampak samping**. Satu file HTML (`index.h
 - **Tampak samping**: satu strip per rak, tiap kotak satu posisi pallet, tinggi tumpukan = jumlah level. Bisa dilihat dari barat atau timur, diwarnai menurut status atau jumlah level.
 - **Potongan melintang**: profil tinggi antar rak per posisi utara-selatan, atau siluet tertinggi.
 - **3D rak**: model rak seperti di gudang (tiang biru dengan penyilang, balok oranye per level, pelindung kuning, papan kode rak). Bisa diputar, diperbesar, dan dilihat setinggi mata dari lorong. Isi rak tidak digambar.
+- **Peta brand**: peta atas dari sheet `per brand racking`, kotak diwarnai menurut brand racking (SSI Schaefer, Spectrum, M41; abu-abu = racking baru tanpa brand). Klik nama brand untuk menyorotnya. Tabel di bawahnya membandingkan PP hasil hitungan dengan angka di kotak ringkasan Excel, per brand dan per area.
 - **Rekap PP**: PP existing, PP baru, dan pembanding dengan tabel PP di sheet.
 
 Kotak abu-abu di Excel dibaca sebagai racking baru. Data contoh diambil dari `Master_JDC_Location.xlsx` (sheet `layour JDC`).
